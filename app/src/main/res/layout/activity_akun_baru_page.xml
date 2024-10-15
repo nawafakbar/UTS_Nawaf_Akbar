@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AkunBaruPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Account"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/vectors"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/frame"
+                android:scaleType="center"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name"
+                android:id="@+id/a"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="example@example.com"
+                android:background="@drawable/radius"
+                android:backgroundTint="@color/primary"
+                android:paddingVertical="5dp"
+                android:paddingStart="30dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/d"
+                android:layout_below="@+id/a"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:id="@+id/e"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/d"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="password"
+                android:background="@drawable/radius"
+                android:backgroundTint="@color/primary"
+                android:paddingVertical="5dp"
+                android:paddingStart="30dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/f"
+                android:layout_below="@+id/e"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:id="@+id/wk1"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/f"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="example@gmailcom"
+                android:background="@drawable/radius"
+                android:backgroundTint="@color/primary"
+                android:paddingVertical="5dp"
+                android:paddingStart="30dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/wk2"
+                android:layout_below="@+id/wk1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:id="@+id/wk3"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/wk2"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="example 085759873"
+                android:background="@drawable/radius"
+                android:backgroundTint="@color/primary"
+                android:paddingVertical="5dp"
+                android:paddingStart="30dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/wk4"
+                android:layout_below="@+id/wk3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:id="@+id/wk5"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/wk4"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="example@gmailcom"
+                android:background="@drawable/radius"
+                android:backgroundTint="@color/primary"
+                android:paddingVertical="5dp"
+                android:paddingStart="30dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/wk6"
+                android:layout_below="@+id/wk5"
+                />
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_below="@+id/wk6"
+                android:id="@+id/liner2"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="by countyning, you agree to"
+                    android:fontFamily="@font/poppinsregular"
+                    android:id="@+id/wr"
+                    android:layout_below="@+id/login"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="term of us and privasi policy"
+                    android:fontFamily="@font/poppinsregular"
+                    android:id="@+id/wr2"
+                    android:layout_below="@+id/login"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/secondary"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:backgroundTint="@color/secondary"
+                android:paddingHorizontal="50dp"
+                android:layout_below="@+id/liner2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:id="@+id/login"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="or sign up with"
+                android:fontFamily="@font/poppinsregular"
+                android:id="@+id/h"
+                android:layout_below="@+id/login"
+                android:layout_centerHorizontal="true"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/h"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/liner1"
+                >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/googleicon"
+                    android:layout_marginHorizontal="5dp"
+                    />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/fbicon"
+                    android:layout_marginHorizontal="5dp"
+                    />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/fingerprinticon"
+                    android:layout_marginHorizontal="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/liner1"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="already have any account?"
+                    android:fontFamily="@font/poppinsregular"
+                    android:id="@+id/aa"
+                    android:textSize="12sp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Log In"
+                    android:fontFamily="@font/poppinsregular"
+                    android:id="@+id/txt_signup"
+                    android:textSize="12sp"
+                    android:textColor="@color/secondary"
+                    android:layout_centerHorizontal="true"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

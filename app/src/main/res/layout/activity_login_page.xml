@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/vectors"
+            android:layout_marginTop="65dp"
+            android:layout_marginStart="30dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="120dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/frame"
+                android:scaleType="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:id="@+id/a"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                android:layout_below="@+id/a"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/b"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Or Mobile Number"
+                android:id="@+id/c"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/b"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="example@example.com"
+                android:background="@drawable/radius"
+                android:backgroundTint="@color/primary"
+                android:paddingVertical="20dp"
+                android:paddingStart="30dp"
+                android:id="@+id/d"
+                android:layout_below="@+id/c"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:id="@+id/e"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/d"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="password"
+                android:background="@drawable/radius"
+                android:backgroundTint="@color/primary"
+                android:paddingVertical="20dp"
+                android:id="@+id/f"
+                android:layout_below="@+id/e"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/f"
+                android:text="forgot Password?"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/secondary"
+                android:id="@+id/g"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="35dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:backgroundTint="@color/secondary"
+                android:paddingHorizontal="50dp"
+                android:layout_below="@+id/g"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:id="@+id/login"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="or sign up with"
+                android:fontFamily="@font/poppinsregular"
+                android:id="@+id/h"
+                android:layout_below="@+id/login"
+                android:layout_centerHorizontal="true"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/h"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:id="@+id/liner1"
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/googleicon"
+                    android:layout_marginHorizontal="5dp"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/fbicon"
+                    android:layout_marginHorizontal="5dp"
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/fingerprinticon"
+                    android:layout_marginHorizontal="5dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/liner1"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dont have any account?"
+                    android:fontFamily="@font/poppinsregular"
+                    android:id="@+id/aa"
+                    android:textSize="12sp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:fontFamily="@font/poppinsregular"
+                    android:id="@+id/txt_signup"
+                    android:textSize="12sp"
+                    android:textColor="@color/secondary"
+                    android:layout_centerHorizontal="true"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

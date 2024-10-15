@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailGambar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Order"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="120dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/frame"
+                android:scaleType="center"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img1"
+                android:scaleType="centerCrop"
+                android:layout_margin="50dp"
+                android:id="@+id/a"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TXT JUDUL"
+                android:id="@+id/b"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/a"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                android:layout_below="@+id/b"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/c"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leave Us your comment"
+                android:id="@+id/aa"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/black"
+                android:layout_below="@+id/c"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="write here"
+                android:layout_below="@+id/aa"
+                android:background="@color/primary"
+                android:padding="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/hahaha"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/hahaha"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cancel"
+                    android:backgroundTint="@color/primary"
+                    android:textColor="@color/secondary"
+                    android:id="@+id/but"
+                    android:layout_centerHorizontal="true"
+                    android:paddingHorizontal="45dp"
+                    android:layout_marginHorizontal="10dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:backgroundTint="@color/secondary"
+                    android:textColor="@color/white"
+                    android:id="@+id/but2"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingHorizontal="45dp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
